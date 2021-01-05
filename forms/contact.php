@@ -29,7 +29,7 @@
     'host' => 'mail.gmx.net',
     'username' => 's.schutta@gmx.de',
     'password' => 'gm0912gmx',
-    'port' => '465'
+    'port' => '465' //oder 25
   );
 
 
