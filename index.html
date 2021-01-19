@@ -537,7 +537,7 @@
               <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                 <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
                 <script>(function () {
-                    var setting = { "height": 970, "width": 803, "zoom": 12, "queryString": "Berlin, Deutschland", "place_id": "ChIJAVkDPzdOqEcRcDteW0YgIQQ", "satellite": false, "centerCoord": [52.50716752966575, 13.424731743221988], "cid": "0x42120465b5e3b70", "lang": "de", "cityUrl": "/germany/berlin", "cityAnchorText": "Karte von Berlin, Berlin City Area, Deutschland", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "338546" };
+                    var setting = { "height": 400, "width": 803, "zoom": 12, "queryString": "Berlin, Deutschland", "place_id": "ChIJAVkDPzdOqEcRcDteW0YgIQQ", "satellite": false, "centerCoord": [52.50716752966575, 13.424731743221988], "cid": "0x42120465b5e3b70", "lang": "de", "cityUrl": "/germany/berlin", "cityAnchorText": "Karte von Berlin, Berlin City Area, Deutschland", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "338546" };
                     var d = document;
                     var s = d.createElement('script');
                     s.src = 'https://1map.com/js/script-for-user.js?embed_id=338546';
@@ -550,14 +550,7 @@
                   })();</script><a href="https://1map.com/de/map-embed">1 Map</a>
               </div> <!--stop own code-->
 
-      <!--<div class="phone">
-                <i class="icofont-phone"></i>
-                <h4></h4>
-                <p></p>
-              </div>--> 
-
-              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>-->
-            </div>
+    </div>
 
           </div>
 
@@ -565,29 +558,32 @@
             <form action="https://formspree.io/f/mbjpwjeg" method="post" role="form" class="php-email-form" >
               <div class="form-row">
                 <div class="form-group col-md-6">
+
+<!-- modify this form HTML and place wherever you want your form -->
+
+           <form action="https://formspree.io/f/mbjpwjeg" method="POST">
                   <label for="name">Ihr Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name"/>
                   <div class="validate"></div>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Ihre Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email"/>
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Betreff</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject"/>
                 <div class="validate"></div>
               </div>
               <div class="form-group">
                 <label for="name">Nachricht</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <textarea class="form-control" name="message" rows="10" data-msg="Please write something for us"></textarea>
                 <div class="validate"></div>
               </div>
-              <div class="mb-3">
+              <div>
                 <div class="loading">Lädt</div>
-                <div class="error-message"></div>
                 <div class="sent-message">Ihre Nachricht wurde gesendet. Vielen Dank!</div>
               </div>
               <div class="text-center"><button type="submit">Nachricht senden</button></div>
