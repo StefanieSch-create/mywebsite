@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="utf-8">
@@ -227,9 +227,9 @@
               <h4>Grafik Designer</h4>
               <h5>2018</h5>
               <p><em>AID Kurse</em></p>
-              <a href="https://drive.google.com/file/d/1MpIVhgfFs6sYKoUA3I6n47gQebhSnUtV/view?usp=sharing" target="blank"> Zertifikat - Informationen visualisieren</a>
+              <a href="https://drive.google.com/file/d/1MpIVhgfFs6sYKoUA3I6n47gQebhSnUtV/view?uspsharing" target="blank"> Zertifikat - Informationen visualisieren</a>
               <p> Infografik - Aufarbeitung komplexer Daten, Visualisierungs- <br> möglichkeiten, Recherchemöglichkeiten </p>
-              <a href=https://drive.google.com/file/d/1bU2bWT2YngvFWQ8CapkrQ-Ud8IA6S81X/view?usp=sharing" target="blank"> Zertifikat - Editorial Illustrationen</a>
+              <a href="https://drive.google.com/file/d/1bU2bWT2YngvFWQ8CapkrQ-Ud8IA6S81X/view?uspsharing" target="blank"> Zertifikat - Editorial Illustrationen</a>
               <p> Einführung, Entwicklung von Illustrationen für eine Kolumne und einen Artikel mit Fokus auf Skizze, Reinzeichnung und Layout </p>
             </div>
           </div>
@@ -406,7 +406,7 @@
 
         <div class="section-title">
           <h2>Leistungen</h2>
-          <p>Als Fullservice Designer biete ich ein breites kreatives Spektrum von Leistungen an, vom Konzept, zum Design, bishin zum fertigen Produkt. </p>
+          <p>Als Fullservice Designer biete ich ein breites kreatives Spektrum von Leistungen an, vom Konzept, zum Design, bishin zum fertigen Produkt.  </p>
         </div>
 
         <div class="row">
@@ -505,19 +505,20 @@
             </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
+          
           <h2>Kontakt</h2>
           <p>Gerne stehe ich Ihnen für Anfragen zu gemeinsamen Projekten oder einer möglichen Zusammenarbeit zur Verfügung. Ich freue
           mich von Ihnen zu hören.</p>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row aos-init aos-animate" data-aos="fade-in">
 
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
@@ -549,51 +550,47 @@
                     to.parentNode.insertBefore(s, to);
                   })();</script><a href="https://1map.com/de/map-embed">1 Map</a>
               </div> <!--stop own code-->
-
-    </div>
+            </div>
+    
 
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/mbjpwjeg" method="post" role="form" class="php-email-form" >
+         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="info">
+          <form action="https://formspree.io/f/mbjpwjeg" method="POST">
               <div class="form-row">
                 <div class="form-group col-md-6">
-
-<!-- modify this form HTML and place wherever you want your form -->
-
-           <form action="https://formspree.io/f/mbjpwjeg" method="POST">
                   <label for="name">Ihr Name</label>
-                  <input type="text" name="name" class="form-control" id="name"/>
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                   <div class="validate"></div>
+                 </div>
+                 <div class="form-group col-md-6">
                   <label for="name">Ihre Email</label>
-                  <input type="email" class="form-control" name="email" id="email"/>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Betreff</label>
-                <input type="text" class="form-control" name="subject" id="subject"/>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
                 <label for="name">Nachricht</label>
-                <textarea class="form-control" name="message" rows="10" data-msg="Please write something for us"></textarea>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                 <div class="validate"></div>
               </div>
-              <div>
-                <div class="loading">Lädt</div>
-                <div class="sent-message">Ihre Nachricht wurde gesendet. Vielen Dank!</div>
+              <div class="mb-3">
               </div>
               <div class="text-center"><button type="submit">Nachricht senden</button></div>
-            </form>
-          </div>
-
+          </form>
+        </div>
+      </div>
+         
         </div>
 
-      </div>
-    </section><!-- End Contact Section -->
+
+
+    </section> <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
