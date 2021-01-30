@@ -669,11 +669,6 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 
-details[open] {
-  background: coral;
-  margin-bottom: 1em;
-}
-
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
