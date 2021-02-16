@@ -170,6 +170,7 @@
     }
   });
 
+
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
